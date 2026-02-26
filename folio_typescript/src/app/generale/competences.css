@@ -1,0 +1,118 @@
+
+.competences {
+  padding: 80px 10%;
+  background: #19243f; 
+  color: white;
+}
+
+.competences h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+}
+
+.skills-grid {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 25px;
+  flex-wrap: nowrap; 
+}
+
+
+.box {
+  flex: 1;
+  min-width: 0; 
+  background: #161e2c;
+  padding: 25px;
+  border-radius: 15px;
+  transition: 0.3s ease;
+}
+
+.box h3 {
+  text-transform: capitalize;
+  margin-bottom: 20px;
+  text-align: center;
+  color: #38bdf8;
+}
+
+
+.skill {
+  margin-bottom: 18px;
+  cursor: pointer;
+}
+
+
+.skill .label {
+  display: block;
+  margin-bottom: 5px;
+  font-size: 0.9rem;
+}
+
+
+.bar {
+  background: #334155;
+  height: 25px;
+  border-radius: 30px;
+  overflow: hidden;
+  position: relative;
+}
+
+
+.fill {
+  height: 100%;
+  width: 0;
+  background: linear-gradient(90deg, #22c55e, #16a34a);
+  border-radius: 20px;
+  transition: width 0.6s ease;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding-right: 10px;
+  overflow: hidden;
+}
+
+
+.percentage {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: white;
+  opacity: 0;
+  transition: 0.3s ease;
+}
+
+
+.skill:hover .fill {
+  width: var(--level);
+  box-shadow: 0 0 10px #22c55e,
+              0 0 20px #22c55e,
+              0 0 30px #22c55e;
+}
+
+
+.skill:hover .percentage {
+  opacity: 1;
+}
+
+
+.box:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 0 20px rgba(56, 189, 248, 0.3);
+}
+
+@media (max-width: 1024px) {
+  .skills-grid {
+    flex-wrap: wrap;
+  }
+
+  .box {
+    flex: 45%;
+  }
+}
+
+@media (max-width: 600px) {
+  .box {
+    flex: 100%;
+  }
+}

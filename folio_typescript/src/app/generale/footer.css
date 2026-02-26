@@ -1,0 +1,34 @@
+.footer {
+  width: 100%;
+  padding: 40px 5%;
+  background: #04161b;
+  border-top: 1px solid rgba(0, 255, 200, 0.2);
+  text-align: center;
+  margin-top: 80px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-bottom: 15px;
+}
+
+.footer-content a {
+  color: #00e6b8;
+  font-size: 1.2rem;
+  font-weight: 600;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.footer-content a:hover {
+  color: #00ffcc;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+.footer-copy {
+  color: #88b3ad;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}

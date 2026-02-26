@@ -1,0 +1,36 @@
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 22px 7%;
+  background: rgba(5, 20, 25, 0.85);
+  backdrop-filter: blur(10px);
+  z-index: 1000;
+  border-bottom: 1px solid rgba(0, 255, 200, 0.22);
+}
+
+.nav {
+  display: flex;
+  justify-content: center;
+  gap: 45px;
+}
+
+.nav a {
+  color: #00e6b8;
+  font-weight: 650;
+  font-size: 1.15rem;
+  letter-spacing: 0.4px;
+  text-decoration: none;
+  transition: 0.3s ease;
+}
+
+.nav a:hover {
+  color: #00ffcc;
+  text-shadow: 0 0 10px #00ffcc;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+

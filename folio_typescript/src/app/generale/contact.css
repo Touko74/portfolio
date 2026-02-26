@@ -1,0 +1,103 @@
+/* SECTION CONTACT FULL SCREEN */
+.contact {
+  min-height: 100vh;
+  padding: 100px 10%;
+  background: linear-gradient(135deg, #06202d, #003b36); /* bleu profond → vert foncé */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* CONTAINER */
+.contact-container {
+  width: 100%;
+  max-width: 800px;
+  background: #071a21; /* bleu nuit tirant vers le vert */
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 255, 200, 0.15);
+  transition: 0.3s ease;
+}
+
+.contact-container:hover {
+  box-shadow: 0 0 35px rgba(0, 255, 200, 0.35);
+  transform: translateY(-5px);
+}
+
+/* TITRE */
+.contact h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00e6b8; /* turquoise lumineux */
+}
+
+/* TEXTE */
+.contact-subtitle {
+  text-align: center;
+  margin-bottom: 40px;
+  line-height: 1.6;
+  opacity: 0.85;
+}
+
+/* FORM */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* INPUTS */
+.input-group input,
+.input-group textarea {
+  width: 100%;
+  padding: 15px 20px;
+  border-radius: 12px;
+  border: 1px solid #1a3a3a;
+  background: #04161b; /* bleu nuit avec une pointe de vert */
+  color: white;
+  font-size: 0.95rem;
+  transition: 0.3s ease;
+}
+
+/* FOCUS */
+.input-group input:focus,
+.input-group textarea:focus {
+  outline: none;
+  border-color: #00e6b8;
+  box-shadow: 0 0 12px rgba(0, 255, 200, 0.6);
+  transform: scale(1.02);
+}
+
+/* BOUTON */
+.contact-btn {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 30px;
+  border: none;
+  font-weight: bold;
+  font-size: 1rem;
+  background: linear-gradient(90deg, #00e6b8, #00bfa6); /* turquoise → vert menthe */
+  color: #002b26;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+/* HOVER BOUTON */
+.contact-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 0 15px #00e6b8,
+              0 0 25px #00bfa6;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .contact-container {
+    padding: 30px;
+  }
+
+  .contact h2 {
+    font-size: 2rem;
+  }
+}
