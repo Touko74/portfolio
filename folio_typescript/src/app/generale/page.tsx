@@ -47,7 +47,7 @@ export default function About() {
       (entries) => {
         entries.forEach((entry) => {
           if (entry.isIntersecting && entry.intersectionRatio >= 0.5) {
-            entry.target.style.animationPlayState = "running";
+          (entry.target as HTMLElement).style.animationPlayState = "running";
           }
         });
       },
