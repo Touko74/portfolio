@@ -69,22 +69,23 @@ export default function About() {
     Autres: ["Github", "Cisco"],
   };
 
-  const skillLevels = {
-    "html-css-js": "85%",
-    tailwind: "60%",
-    "react-native": "70%",
-    php: "50%",
-    figma: "60%",
-    "next-js": "80%",
-    sql: "80%",
-    mongodb: "50%",
-    merise: "80%",
-    python: "60%",
-    c: "50%",
-    javascript: "65%",
-    github: "85%",
-    cisco: "50%",
-  };
+ const skillLevels: Record<string, string> = {
+  "html-css-js": "85%",
+  tailwind: "60%",
+  "react-native": "70%",
+  php: "50%",
+  figma: "60%",
+  "next-js": "80%",
+  sql: "80%",
+  mongodb: "50%",
+  merise: "80%",
+  python: "60%",
+  c: "50%",
+  javascript: "65%",
+  github: "85%",
+  cisco: "50%",
+};
+
 
   const createId = (text: string) =>
     text
