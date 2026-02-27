@@ -8,7 +8,7 @@
 
 .abt {
   min-height: 100vh;
-  padding: 4rem 8%;   /* ← IMPORTANT */
+  padding: 4rem 8%;   
   background: linear-gradient(135deg, var(--bg-main), var(--bg-secondary));
   color: var(--text-main);
 }
@@ -97,7 +97,7 @@
 .profile-pic img {
   width: 100%;
   height: 100%;
-  object-fit: contain;        /* garde les proportions */
+  object-fit: contain;        
   border-radius: inherit;
   transition: transform 0.6s ease, filter 0.6s ease;
 }

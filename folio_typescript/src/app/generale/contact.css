@@ -2,7 +2,7 @@
 .contact {
   min-height: 100vh;
   padding: 100px 10%;
-  background: linear-gradient(135deg, #06202d, #003b36); /* bleu profond → vert foncé */
+  background: linear-gradient(135deg, #06202d, #003b36); 
   color: white;
   display: flex;
   align-items: center;
@@ -13,7 +13,7 @@
 .contact-container {
   width: 100%;
   max-width: 800px;
-  background: #071a21; /* bleu nuit tirant vers le vert */
+  background: #071a21; 
   padding: 50px;
   border-radius: 20px;
   box-shadow: 0 0 25px rgba(0, 255, 200, 0.15);
@@ -30,7 +30,7 @@
   text-align: center;
   font-size: 2.5rem;
   margin-bottom: 20px;
-  color: #00e6b8; /* turquoise lumineux */
+  color: #00e6b8; 
 }
 
 /* TEXTE */
@@ -55,7 +55,7 @@
   padding: 15px 20px;
   border-radius: 12px;
   border: 1px solid #1a3a3a;
-  background: #04161b; /* bleu nuit avec une pointe de vert */
+  background: #04161b; 
   color: white;
   font-size: 0.95rem;
   transition: 0.3s ease;
@@ -78,7 +78,7 @@
   border: none;
   font-weight: bold;
   font-size: 1rem;
-  background: linear-gradient(90deg, #00e6b8, #00bfa6); /* turquoise → vert menthe */
+  background: linear-gradient(90deg, #00e6b8, #00bfa6); 
   color: #002b26;
   cursor: pointer;
   transition: 0.3s ease;
