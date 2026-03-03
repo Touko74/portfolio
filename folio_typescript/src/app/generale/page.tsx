@@ -100,7 +100,7 @@ export default function About() {
         <div className="hero-wrap">
           <div className="hero-left">
             <h1>
-              <span className="accent">Frontend</span>
+              <span className="accent">Fullstack</span>
               <br />
               Developer.
             </h1>
